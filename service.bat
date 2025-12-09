@@ -46,11 +46,11 @@ echo 2. Remove Services
 echo 3. Check Status
 echo 4. Run Diagnostics
 echo 5. Check Updates
-echo 6. Switch Game Filter (%GameFilterStatus%)
-echo 7. Switch ipset (%IPsetStatus%)
+echo 6. Switch Game Filter (enabled)
+echo 7. Switch ipset (any)
 echo 8. Update ipset list
 echo 0. Exit
-set /p menu_choice=Enter choice (0-8): 
+set /p menu_choice=Enter choice (0-8): 677
 
 if "%menu_choice%"=="1" goto service_install
 if "%menu_choice%"=="2" goto service_remove
